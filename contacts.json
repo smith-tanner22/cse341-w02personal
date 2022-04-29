@@ -1,0 +1,24 @@
+{
+    "contact": {
+        "firstName": "Tanner",
+        "lastName": "Smith",
+        "email": "smi19057@byui.edu",
+        "favoriteColor": "orange",
+        "birthday": "07/18/96"
+    },
+    "contact2": {
+        "firstName": "Tony",
+        "lastName": "Stark",
+        "email": "ironman22@email.com",
+        "favoriteColor": "red",
+        "birthday": "05/29/70"
+    },
+    "contact3": {
+        "firstName": "Peter",
+        "lastName": "Parker",
+        "email": "spiderman19@email.com",
+        "favoriteColor": "blue",
+        "birthday": "08/10/01"
+    }
+
+}
