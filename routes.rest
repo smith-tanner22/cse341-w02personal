@@ -1,4 +1,34 @@
 // LOCALHOST
 GET http://localhost:8080/contacts
+###
+
+// Tanner
+GET http://localhost:8080/contacts/626c561d9ac0754e737cd68c
+
+###
+
+// Tony
+GET http://localhost:8080/contacts/626c561d9ac0754e737cd68d
+
+###
+
+// Peter
+GET http://localhost:8080/contacts/626c561d9ac0754e737cd68e
+
+###
 
 // PRODUCTION Deploy
+GET https://cse341-node-w02personal.herokuapp.com/contacts
+
+###
+
+GET https://cse341-node-w02personal.herokuapp.com/contacts/626c561d9ac0754e737cd68c
+
+###
+
+GET https://cse341-node-w02personal.herokuapp.com/contacts/626c561d9ac0754e737cd68d
+
+###
+
+GET https://cse341-node-w02personal.herokuapp.com/contacts/626c561d9ac0754e737cd68e
+
