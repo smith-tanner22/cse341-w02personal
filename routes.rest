@@ -75,3 +75,33 @@ content-type: application/json
 
 ###
 
+// PRODUCTION Deploy
+
+POST https://cse341-node-w02personal.herokuapp.com/contacts HTTP/1.1
+content-type: application/json
+
+{
+    "firstName": "Bruce",
+    "lastName": "Banner",
+    "email": "smashingstuff22@email.com",
+    "favoriteColor": "green",
+    "birthday": "12/19/1969"
+}
+
+PUT https://cse341-node-w02personal.herokuapp.com/contacts/626c561d9ac0754e737cd68d HTTP/1.1
+content-type: application/json
+
+{
+    "firstName": "Tony",
+    "lastName": "Stark",
+    "email": "ironman22@email.com",
+    "favoriteColor": "gold",
+    "birthday": "05/29/70"
+}
+
+DELETE https://cse341-node-w02personal.herokuapp.com/contacts/626c561d9ac0754e737cd68c HTTP/1.1
+content-type: application/json
+
+{
+    "firstName": "Tanner"
+}
