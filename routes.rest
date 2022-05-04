@@ -88,6 +88,8 @@ content-type: application/json
     "birthday": "12/19/1969"
 }
 
+###
+
 PUT https://cse341-node-w02personal.herokuapp.com/contacts/626c561d9ac0754e737cd68d HTTP/1.1
 content-type: application/json
 
@@ -98,6 +100,8 @@ content-type: application/json
     "favoriteColor": "gold",
     "birthday": "05/29/70"
 }
+
+###
 
 DELETE https://cse341-node-w02personal.herokuapp.com/contacts/626c561d9ac0754e737cd68c HTTP/1.1
 content-type: application/json
