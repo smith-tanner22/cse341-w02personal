@@ -59,7 +59,7 @@ content-type: application/json
     "firstName": "Tony",
     "lastName": "Stark",
     "email": "ironman22@email.com",
-    "favoriteColor": "gold",
+    "favoriteColor": "red",
     "birthday": "05/29/70"
 }
 
@@ -70,7 +70,7 @@ DELETE http://localhost:8080/contacts/626c561d9ac0754e737cd68c HTTP/1.1
 content-type: application/json
 
 {
-    "firstName": "Tanner"
+    "firstName": "Bruce"
 }
 
 ###
@@ -97,7 +97,7 @@ content-type: application/json
     "firstName": "Tony",
     "lastName": "Stark",
     "email": "ironman22@email.com",
-    "favoriteColor": "gold",
+    "favoriteColor": "red",
     "birthday": "05/29/70"
 }
 
@@ -107,5 +107,5 @@ DELETE https://cse341-node-w02personal.herokuapp.com/contacts/626c561d9ac0754e73
 content-type: application/json
 
 {
-    "firstName": "Tanner"
+    "firstName": "Bruce"
 }
