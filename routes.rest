@@ -1,5 +1,6 @@
 // LOCALHOST
 GET http://localhost:8080/contacts
+
 ###
 
 // Tanner
@@ -31,4 +32,46 @@ GET https://cse341-node-w02personal.herokuapp.com/contacts/626c561d9ac0754e737cd
 ###
 
 GET https://cse341-node-w02personal.herokuapp.com/contacts/626c561d9ac0754e737cd68e
+
+###
+
+// Adding, Updating, and Deleting contacts
+
+// Adding
+POST http://localhost:8080/contacts HTTP/1.1
+content-type: application/json
+
+{
+    "firstName": "Bruce",
+    "lastName": "Banner",
+    "email": "smashingstuff22@email.com",
+    "favoriteColor": "green",
+    "birthday": "12/19/1969"
+}
+
+###
+
+// Updating
+PUT http://localhost:8080/contacts/626c561d9ac0754e737cd68d HTTP/1.1
+content-type: application/json
+
+{
+    "firstName": "Tony",
+    "lastName": "Stark",
+    "email": "ironman22@email.com",
+    "favoriteColor": "gold",
+    "birthday": "05/29/70"
+}
+
+###
+
+// Deleting
+DELETE http://localhost:8080/contacts/626c561d9ac0754e737cd68c HTTP/1.1
+content-type: application/json
+
+{
+    "firstName": "Tanner"
+}
+
+###
 
