@@ -14,16 +14,16 @@
         "description": "",
         "parameters": [],
         "responses": {}
-      },
-      "/contacts/": {
-        "get": {
-          "description": "",
-          "produces": ["application/json"],
-          "parameters": [],
-          "responses": {
-            "200": {
-              "description": "OK"
-            }
+      }
+    },
+    "/contacts/": {
+      "get": {
+        "description": "",
+        "produces": ["application/json"],
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "OK"
           }
         }
       },
